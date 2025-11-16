@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-geist-sans);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid #0ea5e9;
+  outline-offset: 4px;
+}
+
+.glass-panel {
+  @apply rounded-3xl border border-slate-200/70 bg-white/75 p-8 shadow-lg shadow-slate-900/5 backdrop-blur;
+}
+
+.section-heading {
+  @apply text-lg font-semibold text-slate-800;
+}
+
+.subtext {
+  @apply text-sm text-slate-500;
+}
